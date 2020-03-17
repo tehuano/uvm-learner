@@ -10,4 +10,9 @@ class packet_in extends uvm_sequence_item;
     function new(string name="packet_in");
         super.new(name);
     endfunction: new
+
+    function int xrandomize(); // different spelling of randomize
+        return $random(100);
+    endfunction
+
 endclass: packet_in
