@@ -2,7 +2,7 @@ import uvm_pkg::*;
 `include "uvm_macros.svh"
 `include "./input_if.sv"
 `include "./output_if.sv"
-`include "./adder.sv"
+`include "adder.sv"
 `include "./packet_in.sv"
 `include "./packet_out.sv"
 `include "./sequence_in.sv"
