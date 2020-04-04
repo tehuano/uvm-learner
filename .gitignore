@@ -1,4 +1,6 @@
 transcript
 *.wlf
 work
-
+*.pyc
+*.swp
+*.log
